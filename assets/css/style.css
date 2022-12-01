@@ -3,6 +3,7 @@
 * {
     font-family: 'Poppins', sans-serif;
     color: var(--foreground);
+    margin: 0;
 }
 
 *::before,
@@ -64,6 +65,17 @@ body::before {
     min-height: 100vh;
 }
 
-#header h1 {
-    font-size: 40px;
+#header .container .hero-title {
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+#header .container .hero-title::before {
+    content: "";
+    width: 15px;
+    display: inline-block;
+    height: 3px;
+    background: var(--foreground);
+    margin-right: 10px;
 }
