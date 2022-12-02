@@ -91,6 +91,9 @@ body::before {
 .mobile-menu:hover div:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
 }
+
+nav ul li {
+    list-style-type: none;
 }
 
 
