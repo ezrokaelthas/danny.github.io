@@ -92,6 +92,10 @@ body::before {
     transform: translateY(-8px) rotate(-45deg);
 }
 
+nav ul {
+    margin: 0;
+}
+
 nav ul li {
     list-style-type: none;
     display: inline;
