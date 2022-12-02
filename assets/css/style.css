@@ -106,7 +106,7 @@ nav ul li a {
     margin-right: 30px;
 }
 
-nav ul li a:last-child {
+nav ul li > a:last-child {
     margin-right: 0;
 }
 
